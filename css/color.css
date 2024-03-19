@@ -1,0 +1,249 @@
+@font-face {
+    font-family: 'Manrope';
+    src: url('https://0ho.la/foqEToqM1P1E.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Sora';
+    src: url('https://0ho.la/fM9HND5cgdgE.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Micro';
+    src: url('https://0ho.la/uAgaJHQdFXuY.ttf') format('truetype');
+}
+:root{
+    --primary: #6db1a6;
+    --bg: #3e4247;
+    --transparent: transparent;
+    --blue: #68b2f8;
+    --lightblue: #afd5f8;
+    --sea: #002b44;
+    --white: white;
+    --black: #070707;
+    --orange: #c9811d;
+    --green: #076429;
+    --teal: #038288;
+    --grey: #939393;
+    --slate: #819094;
+    --purple: #382164;
+    --yellow: #ffc62e;
+    --lightred: red;
+    --red: #1e0201;
+    --darkred: #110100;
+    --rose: #b96f81;
+    --tan: #ae946e;
+    --brown: #524b3d;
+    --dusk: #4E5481;
+    --mint: #aaf6cf;
+}
+
+.primary{
+    color: var(--primary);
+}
+
+.background-primary{
+    background-color: var(--primary);
+}
+
+.transparent{
+    background-color: var(--transparent);
+    color: var(--transparent);
+}
+
+.blue{
+    color: var(--blue);
+}
+
+.background-blue{
+    background-color: var(--blue);
+}
+
+.lightblue{
+    color: var(--lightblue);
+}
+
+.background-lightblue{
+    background-color: var(--lightblue);
+}
+
+.sea{
+    color: var(--sea);
+}
+
+.background-sea{
+    background-color: var(--sea);
+}
+
+.white{
+    color: var(--white);
+}
+
+.background-white{
+    background-color: var(--white);
+}
+
+.black{
+    color: var(--black);
+}
+
+.background-black{
+    background-color: var(--black);
+}
+
+.orange{
+    color: var(--orange);
+}
+
+.background-orange{
+    background-color: var(--orange);
+}
+
+.green{
+    color: var(--green);
+}
+
+.background-green{
+    background-color: var(--green);
+}
+
+.grey{
+    color: var(--grey);
+}
+
+.background-grey{
+    background-color: var(--grey);
+}
+
+.slate{
+    color: var(--slate);
+}
+
+.background-slate{
+    background-color: var(--slate);
+}
+
+.yellow {
+    color: var(--yellow);
+}
+
+.background-yellow{
+    background-color: var(--yellow);
+}
+
+.purple {
+    color: var(--purple);
+}
+
+.background-purple{
+    background-color: var(--purple);
+}
+
+.lightred{
+    color: var(--lightred);
+}
+
+.background-lightred{
+    background-color: var(--lightred);
+}
+
+.red{
+    color: var(--red);
+}
+
+.background-red{
+    background-color: var(--red);
+}
+
+.darkred{
+    color: var(--darkred);
+}
+
+.background-darkred{
+    background-color: var(--darkred);
+}
+
+.rose{
+    color: var(--rose);
+}
+
+.backgorund-rose{
+    background-color: var(--rose);
+}
+
+.tan{
+    color: var(--tan);
+}
+
+.background-tan{
+    background-color: var(--tan);
+}
+
+.brown{
+    color: var(--brown);
+}
+
+.background-brown{
+    background-color: var(--browm);
+}
+
+.dusk{
+    color: var(--dusk);
+}
+
+.background-dusk{
+    background-color: var(--dusk);
+}
+
+.mint{
+    color: var(--mint);
+}
+
+.background-mint{
+  background-color: var(--mint);
+}
+
+.small {
+    font-size: 0.813rem;
+    font-weight: 400;
+}
+
+.medium {
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+.big {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.left {
+    float: left
+}
+
+.right {
+    float: right
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-inline{
+    display: inline;
+}
+.manrope{
+    font-family: 'Manrope';
+}
+.sora{
+    font-family: 'Sora';
+}
+.micro{
+    font-family: 'Micro';
+}
+.computer{
+    font-family: 'Pixelated MS Sans Serif' !important;
+}
