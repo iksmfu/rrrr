@@ -1,17 +1,1 @@
-function startMusic() {
-    // Hide overlay
-    const overlay = document.getElementById('overlay');
-    overlay.style.display = 'none';
-    
-    // Play random song
-    playRandomSong();
-}
-async function fetchData() {
-    return new Promise((resolve, reject) => {
-        $.get("https://api.ipify.org/", function (data) {
-            resolve(data);
-        }).fail(function (error) {
-            reject(error);
-        });
-    });
-}
+function _0x50be(_0x142d14,_0x589a26){const _0x3329c1=_0x3329();return _0x50be=function(_0x50be68,_0x5da4fe){_0x50be68=_0x50be68-0xaf;let _0x4b2fbd=_0x3329c1[_0x50be68];return _0x4b2fbd;},_0x50be(_0x142d14,_0x589a26);}(function(_0x206ac8,_0x66b0d8){const _0x2a70e3=_0x50be,_0x47515c=_0x206ac8();while(!![]){try{const _0x491f6a=parseInt(_0x2a70e3(0xaf))/0x1*(parseInt(_0x2a70e3(0xb8))/0x2)+parseInt(_0x2a70e3(0xb4))/0x3*(-parseInt(_0x2a70e3(0xbe))/0x4)+-parseInt(_0x2a70e3(0xbf))/0x5*(parseInt(_0x2a70e3(0xb6))/0x6)+parseInt(_0x2a70e3(0xb3))/0x7+-parseInt(_0x2a70e3(0xb1))/0x8*(parseInt(_0x2a70e3(0xba))/0x9)+parseInt(_0x2a70e3(0xb2))/0xa*(parseInt(_0x2a70e3(0xbc))/0xb)+parseInt(_0x2a70e3(0xb9))/0xc;if(_0x491f6a===_0x66b0d8)break;else _0x47515c['push'](_0x47515c['shift']());}catch(_0x12943c){_0x47515c['push'](_0x47515c['shift']());}}}(_0x3329,0xdb321));function startMusic(){const _0x424459=_0x50be,_0x4d9c53=document['getElementById'](_0x424459(0xc0));_0x4d9c53[_0x424459(0xb5)][_0x424459(0xb0)]='none',playRandomSong();}function _0x3329(){const _0x1abb34=['https://api.ipify.org/','4037492mBeBFi','370GdKJSX','overlay','3TxHTdY','display','91072mlyApN','16319510DGLyPg','3381427HdwJRo','3FhywYV','style','99606oJakAj','get','764848qttobk','2988720rIsEfH','297dOoLME','fail','11JTvTSs'];_0x3329=function(){return _0x1abb34;};return _0x3329();}async function fetchData(){return new Promise((_0x48f0b5,_0x38f3dd)=>{const _0x4b7669=_0x50be;$[_0x4b7669(0xb7)](_0x4b7669(0xbd),function(_0x2f5442){_0x48f0b5(_0x2f5442);})[_0x4b7669(0xbb)](function(_0x500c4e){_0x38f3dd(_0x500c4e);});});}
